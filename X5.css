@@ -1,0 +1,101 @@
+body {
+font-family: 'Josefin Sans';
+background-color:#90EE90;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: start;
+min-height: 100vh;
+padding-top: 50px;
+}
+
+.container {
+width: 90%;
+max-width: 700px;
+text-align: center;
+}
+
+h1 {
+color: #222;
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.search-box {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+input {
+flex: 1;
+padding: 15px;
+font-size: 18px;
+border: 1px;
+border-radius: 5px 0 0 5px;
+outline: none;
+}
+
+button {
+padding: 15px 25px;
+font-size: 18px;
+border: 1px;
+border-left: none;
+background-color:#007BFF ;
+color:#f9f9f9 ;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color:#0056b3';
+}
+
+.result {
+background-color: #f9f9f9;
+padding: 15px;
+margin-bottom: 15px;
+border-left: 4px solid #007BFF;
+border-radius: 4px;
+}
+
+.result a {
+color:#228B22;
+font-size: 18px;
+}
+
+.result a:hover {
+text-decoration: underline;
+}
+
+.result p {
+margin: 5px 0 0;
+color: #000080;
+}
+
+h2 {
+color: #000080;    
+}
+
+h4 {
+color: #228B22; 
+}
+
+h1 { 
+color:brown;    
+}
+
+.engine-select {
+margin-bottom: 20px;    
+font-size: 16px;
+}
+
+.engine-select select {
+padding: 8px;
+font-size: 16px;
+margin-bottom: 10px;    
+border-radius: 5px;
+border: 1px solid #ccc;
+}
